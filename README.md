@@ -9,3 +9,4 @@
 
 ### 커리큘럼
 * 2주차 : Bruteforce & 퇴각 탐색(Backtracking)
+* 3주차 : Stack, Queue and Tree
