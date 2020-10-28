@@ -10,6 +10,8 @@ int parent[100001];
 int isChecked[100001];
 
 int main() {
+    ios::sync_with_stdio(false);
+
     cin >> N;
     v.resize(N+1);
     for(int i = 0; i < N - 1; i++) {
@@ -37,6 +39,6 @@ int main() {
     }
 
     for(int i = 2; i <= N; i++) {
-        cout << parent[i] << endl;
+        cout << parent[i] << '\n';
     }
 }
